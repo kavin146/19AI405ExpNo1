@@ -29,9 +29,12 @@
   </tr>
 </table>
 <hr>
-<H3>DESIGN STEPS</H3
-  ```
-                  # Sensors
+<H3>DESIGN STEPS</H3>
+<h3>program</h3>
+
+
+```
+ # Sensors
 def sense(self):
     room_state = self.environment[self.current_room]
     return room_state["patient"], room_state["temperature"]
@@ -58,8 +61,8 @@ def run(self):
         print(f"Sensed → Patient: {patient}, Temp: {temp}°C")
         self.prescribe(patient, temp)
 
-    print(f"\nFinal Performance Score: {self.performance}")
-                  ```
+ print(f"\nFinal Performance Score: {self.performance}")
+```
 <h3>STEP 1:Identifying the input:</h3>
 <p>Temperature from patients, Location.</p>
 <h3>STEP 2:Identifying the output:</h3>
